@@ -1,0 +1,12 @@
+/* About.css */
+:root {
+    --accordion-arrow-color: #212530; /* Default arrow color for light mode */
+}
+
+.dark-mode {
+    --accordion-arrow-color: white; /* Arrow color for dark mode */
+}
+
+.accordion-button::after {
+    color: var(--accordion-arrow-color) !important;
+}
